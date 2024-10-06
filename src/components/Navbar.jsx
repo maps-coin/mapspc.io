@@ -14,10 +14,10 @@ function Navbar() {
         </h1>
       </div>
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <a href='https://x.com/Mapsconnection' target='_blank'>
+        <a href='#' target='_blank'>
           <FaTelegram />
         </a>
-        <a href='#twitter' target='_blank'>
+        <a href='https://x.com/Mapsconnection' target='_blank'>
           <FaSquareXTwitter />
         </a>
       </div>
