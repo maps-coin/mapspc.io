@@ -1,9 +1,10 @@
 import React from "react";
 import { FaTelegram, FaSquareXTwitter } from "react-icons/fa6";
+import { FaPhoneSquareAlt } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <nav className='nav_items bg-red mb-20 flex flex-col md:flex-row items-center justify-between py-1 '>
+    <nav className='nav_items bg-red mb-20 flex flex-col md:flex-row items-center justify-center md:justify-between py-1 '>
       <div className='flex flex-shrink-0 items-center'>
         <h1 className='title text-4xl'>
           <a className='no-underline' href='/'>
@@ -19,6 +20,9 @@ function Navbar() {
         </a>
         <a href='https://x.com/Mapsconnection' target='_blank'>
           <FaSquareXTwitter />
+        </a>
+        <a href='mailto:emilabb13@gmail.com'>
+          <FaPhoneSquareAlt />
         </a>
       </div>
     </nav>
