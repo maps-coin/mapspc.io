@@ -3,11 +3,11 @@ import { FaTelegram, FaSquareXTwitter } from "react-icons/fa6";
 
 function Navbar() {
   return (
-    <nav className='navbar bg-red mb-20 flex items-center justify-between py-1'>
-      <div className='flex flex-shring-0 items-center'>
+    <nav className='nav_items bg-red mb-20 flex flex-col md:flex-row items-center justify-between py-1 '>
+      <div className='flex flex-shrink-0 items-center'>
         <h1 className='title text-4xl'>
           <a className='no-underline' href='/'>
-            <span className='bg-gradient-to-r from-pink-600 via-blue-400 to-purple-600 bg-clip-text tracking-tight text-transparent'>
+            <span className='text-2xl bg-gradient-to-r from-pink-600 via-blue-400 to-purple-600 bg-clip-text tracking-tight text-transparent md:text-4xl'>
               MapsPC.io
             </span>
           </a>
