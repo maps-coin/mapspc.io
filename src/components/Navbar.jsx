@@ -1,6 +1,11 @@
 import React from "react";
-import { FaTelegram, FaSquareXTwitter } from "react-icons/fa6";
-import { FaPhoneSquareAlt } from "react-icons/fa";
+import {
+  FaTelegram,
+  FaSquareXTwitter,
+  FaTiktok,
+  FaSquareInstagram,
+} from "react-icons/fa6";
+import { FaFacebookSquare, FaPhoneSquareAlt } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -21,7 +26,16 @@ function Navbar() {
         <a href='https://x.com/Mapsconnection' target='_blank'>
           <FaSquareXTwitter />
         </a>
-        <a href='mailto:emilabb13@gmail.com'>
+        <a href='https://www.instagram.com/mapspeopleconnection/'>
+          <FaSquareInstagram />
+        </a>
+        <a href='https://www.tiktok.com/@maps_people_connection?is_from_webapp=1&sender_device=pc'>
+          <FaTiktok />
+        </a>
+        <a href='https://www.facebook.com/profile.php?id=61566121083948'>
+          <FaFacebookSquare />
+        </a>
+        <a href='mailto:mapspeopleconnection@protonmail.com'>
           <FaPhoneSquareAlt />
         </a>
       </div>
