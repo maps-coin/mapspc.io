@@ -6,9 +6,8 @@ function Footer() {
       <div className='container flex items-center flex-col rounded-lg'>
         <div className='text-4xl font-bold '>
           <a href='/'>
-            MAPS
-            <span className='bg-gradient-to-br from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-transparent tracking-tight'>
-              .io
+            <span className='text-2xl bg-gradient-to-r from-pink-600 via-blue-400 to-purple-600 bg-clip-text tracking-tight text-transparent md:text-4xl'>
+              MapsPC.io
             </span>
           </a>
         </div>
