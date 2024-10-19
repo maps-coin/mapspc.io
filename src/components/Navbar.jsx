@@ -33,7 +33,7 @@ function Navbar() {
         <a href='https://www.tiktok.com/@maps_people_connection?is_from_webapp=1&sender_device=pc' target='_blank'>
           <FaTiktok />
         </a>
-        <a href='#youtube' target='_blank'>
+        <a href='https://www.youtube.com/@MapsPeopleConnection/featured' target='_blank'>
           <FaYoutube />
         </a>
         <a href='https://www.facebook.com/profile.php?id=61566121083948' target='_blank'>
