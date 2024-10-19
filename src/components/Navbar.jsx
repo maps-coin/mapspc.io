@@ -4,6 +4,7 @@ import {
   FaSquareXTwitter,
   FaTiktok,
   FaSquareInstagram,
+  FaYoutube
 } from "react-icons/fa6";
 import { FaFacebookSquare, FaPhoneSquareAlt } from "react-icons/fa";
 
@@ -31,6 +32,9 @@ function Navbar() {
         </a>
         <a href='https://www.tiktok.com/@maps_people_connection?is_from_webapp=1&sender_device=pc' target='_blank'>
           <FaTiktok />
+        </a>
+        <a href='#youtube' target='_blank'>
+          <FaYoutube />
         </a>
         <a href='https://www.facebook.com/profile.php?id=61566121083948' target='_blank'>
           <FaFacebookSquare />
