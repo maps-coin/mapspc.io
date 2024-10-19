@@ -26,16 +26,16 @@ function Navbar() {
         <a href='https://x.com/Mapsconnection' target='_blank'>
           <FaSquareXTwitter />
         </a>
-        <a href='https://www.instagram.com/mapspeopleconnection/'>
+        <a href='https://www.instagram.com/mapspeopleconnection/' target='_blank'>
           <FaSquareInstagram />
         </a>
-        <a href='https://www.tiktok.com/@maps_people_connection?is_from_webapp=1&sender_device=pc'>
+        <a href='https://www.tiktok.com/@maps_people_connection?is_from_webapp=1&sender_device=pc' target='_blank'>
           <FaTiktok />
         </a>
-        <a href='https://www.facebook.com/profile.php?id=61566121083948'>
+        <a href='https://www.facebook.com/profile.php?id=61566121083948' target='_blank'>
           <FaFacebookSquare />
         </a>
-        <a href='mailto:mapspeopleconnection@protonmail.com'>
+        <a href='mailto:mapspeopleconnection@protonmail.com' target='_blank'>
           <FaPhoneSquareAlt />
         </a>
       </div>
